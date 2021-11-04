@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  min-height: 100vh;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  margin: 8rem auto;
+  max-width: 400px;
+  margin: 1rem 0;
+}
+
+.card {
+  padding: 3.5rem 5rem 3.5rem 3rem;
+}
+
+img {
+  margin-bottom: 2.5rem;
+}
+
+.title {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-family: 'Big Shoulders Display';
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+}
+
+.parag {
+  margin-bottom: 2.5rem;
+  line-height: 1.9rem;
+  font-family: 'Lexend Deca';
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.btn {
+  background-color: hsl(0, 0%, 95%);
+  padding: 0.9rem 2rem;
+  text-decoration: none;
+  font-family: 'Lexend Deca';
+  border-radius: 35px;
+  color: inherit;
+  margin-bottom: 3rem;
+}
+
+.orange {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(31, 77%, 52%);
+  border-radius: 10px 10px 0 0;
+}
+
+.blue {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(184, 100%, 22%);
+}
+
+.green {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 10px 10px;
+  color: hsl(179, 100%, 13%);
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: hsla(0, 0%, 100%, 0.75);
+  border: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+
+.attribution {
+  background-color: white;
+  max-width: 87vw;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-family: 'Lexend Deca';
+  border-radius: 10px;
+}
+
+.attribution a {
+  text-decoration: none;
+}
+
+@media (min-width: 1260px) {
+  .main-container {
+    width: 100%;
+    max-width: 1250px;
+    display: flex;
+  }
+
+  .card {
+    padding: 3.5rem 5rem 7rem 3rem;
+  }
+
+  .parag {
+    margin-bottom: 6.1rem;
+  }
+
+  .orange {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .green {
+    border-radius: 0 10px 10px 0;
+  }
+
+  .btn {
+    margin-bottom: 0rem;
+  }
+}
